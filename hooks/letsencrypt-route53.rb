@@ -9,7 +9,9 @@ require 'aws-sdk'
 #   AWS_ACCESS_KEY_ID="<YOUR_KEY>"
 #   AWS_SECRET_ACCESS_KEY="<YOUR_SECRET_KEY>"
 #
-# Based on https://gist.github.com/asimihsan/d8d8f0f10bdc85fc6f8a
+# Based on:
+#   https://gist.github.com/joshgarnett/02920846fea35f738d3370fd991bb0e0
+#   https://gist.github.com/asimihsan/d8d8f0f10bdc85fc6f8a
 #
 
 def find_hosted_zone(route53, domain)
